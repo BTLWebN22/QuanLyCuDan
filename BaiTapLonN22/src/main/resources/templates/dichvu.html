@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trang web dịch vụ</title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <h1>Trang web dịch vụ</h1>
+
+  <form id="service-form">
+    <h2>Thêm dịch vụ</h2>
+    <label for="service-name">Tên dịch vụ:</label>
+    <input type="text" id="service-name" required>
+    <button type="submit">Thêm</button>
+  </form>
+
+  <h2>Danh sách dịch vụ</h2>
+  <table id="service-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Tên dịch vụ</th>
+        <th>Thao tác</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+    </tbody>
+  </table>
+
+  <script>
+    
+    function getServices() {
+      
+    }
+
+    
+    function addService(serviceName) {
+      
+    }
+
+   
+    function deleteService(serviceId) {
+      
+    }
+
+    
+    function searchServices(keyword) {
+      
+    }
+
+    
+    document.getElementById('service-form').addEventListener('submit', function(event) {
+      event.preventDefault(); 
+      var serviceName = document.getElementById('service-name').value;
+      addService(serviceName);
+      this.reset(); 
+     
+    });
+
+   
+    document.getElementById('service-table').addEventListener('click', function(event) {
+      if (event.target.classList.contains('delete-button')) {
+        var serviceId = event.target.dataset.serviceId;
+        deleteService(serviceId);
+      }
+    });
+
+    
+    window.addEventListener('load', function() {
+      getServices();
+    });
+  </script>
+</body>
+</html>
