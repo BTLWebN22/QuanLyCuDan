@@ -20,7 +20,7 @@ import com.example.model.Apartment;
 
 
 @RestController
-@RequestMapping(path = "/api", produces = "application/json"	)
+@RequestMapping("/apartment")	
 public class ApartmentRestApiController {
 public static Logger logger = LoggerFactory.getLogger(ApartmentRestApiController.class);
 	
