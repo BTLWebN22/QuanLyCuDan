@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.Repositories.ApartmentService;
-import com.example.model.Apartment;
+import Model.Apartment;
 
 
 @RestController
