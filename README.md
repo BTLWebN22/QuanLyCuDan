@@ -1,6 +1,3 @@
-Dưới đây là bản README được chuyển từ báo cáo "Bài tập lớn" mà bạn đã cung cấp:
-
----
 
 # Hệ Thống Quản Lý Cư Dân Chung Cư
 
